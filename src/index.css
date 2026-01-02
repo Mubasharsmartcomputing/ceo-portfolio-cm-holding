@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Pathway+Extreme:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+@theme {
+  --font-poppins: "Poppins", sans-serif;
+  --font-pathway: "Pathway Extreme", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+  --color-cyan-primary: #00EAFF;
+}
