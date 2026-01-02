@@ -1,24 +1,27 @@
-import { LuDollarSign, LuLightbulb, LuGlobe, LuUsers } from 'react-icons/lu';
+import dollerIcon from '../assets/icons/whyWeChoose/dolller.svg';
+import bulbIcon from '../assets/icons/whyWeChoose/bulb.svg';
+import globalIcon from '../assets/icons/whyWeChoose/global.svg';
+import supportIcon from '../assets/icons/whyWeChoose/support.svg';
 
 const WhyChooseSection = () => {
     const features = [
         {
-            icon: <LuDollarSign className="text-black text-xl" />,
+            icon: <img src={dollerIcon} alt="Verified Investments" className="w-8 h-8 object-contain" />,
             title: "VERIFIED INVESTMENTS",
             text: "All properties and projects are fully authenticated with strict documentation and transparency."
         },
         {
-            icon: <LuLightbulb className="text-black text-xl" />,
+            icon: <img src={bulbIcon} alt="Regulated Management" className="w-8 h-8 object-contain" />,
             title: "REGULATED MANAGEMENT",
             text: "Backed by SECP-compliant real estate governance through Capital RMC."
         },
         {
-            icon: <LuGlobe className="text-black text-xl" />,
+            icon: <img src={globalIcon} alt="Global Standards" className="w-8 h-8 object-contain" />,
             title: "GLOBAL STANDARDS",
             text: "International partners and world-class development practices across every sector."
         },
         {
-            icon: <LuUsers className="text-black text-xl" />,
+            icon: <img src={supportIcon} alt="Complete Advisory" className="w-8 h-8 object-contain" />,
             title: "COMPLETE ADVISORY",
             text: "End-to-end support for investors, businesses, students, and corporate clients."
         }
