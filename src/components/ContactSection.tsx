@@ -22,24 +22,24 @@ const ContactSection = () => {
                         <input
                             type="text"
                             placeholder="Name"
-                            className="w-full bg-[#1A1A1A] border-white/5 rounded-lg p-5 text-white placeholder:text-white/20 focus:outline-none focus:ring-1 focus:ring-cyan-primary/30 transition-all font-pathway h-[64px]"
+                            className="w-full bg-[#1A1A1A] border-white/5 rounded-lg p-5 text-white placeholder:text-white focus:outline-none focus:ring-1 focus:ring-cyan-primary/30 transition-all font-pathway h-[64px]"
                         />
                         {/* Email */}
                         <input
                             type="email"
                             placeholder="Email"
-                            className="w-full bg-[#1A1A1A] border-white/5 rounded-lg p-5 text-white placeholder:text-white/20 focus:outline-none focus:ring-1 focus:ring-cyan-primary/30 transition-all font-pathway h-[64px]"
+                            className="w-full bg-[#1A1A1A] border-white/5 rounded-lg p-5 text-white placeholder:text-white focus:outline-none focus:ring-1 focus:ring-cyan-primary/30 transition-all font-pathway h-[64px]"
                         />
                         {/* Phone Number */}
                         <input
                             type="tel"
                             placeholder="Phone Number"
-                            className="w-full bg-[#1A1A1A] border-white/5 rounded-lg p-5 text-white placeholder:text-white/20 focus:outline-none focus:ring-1 focus:ring-cyan-primary/30 transition-all font-pathway h-[64px]"
+                            className="w-full bg-[#1A1A1A] border-white/5 rounded-lg p-5 text-white placeholder:text-white focus:outline-none focus:ring-1 focus:ring-cyan-primary/30 transition-all font-pathway h-[64px]"
                         />
                         {/* Service Of Interest */}
                         <div className="relative">
                             <select
-                                className="w-full bg-[#1A1A1A] border-white/5 rounded-lg p-5 text-white/20 focus:text-white focus:outline-none focus:ring-1 focus:ring-cyan-primary/30 transition-all font-pathway h-[64px] appearance-none cursor-pointer"
+                                className="w-full bg-[#1A1A1A] border-white/5 rounded-lg p-5 text-white focus:text-white focus:outline-none focus:ring-1 focus:ring-cyan-primary/30 transition-all font-pathway h-[64px] appearance-none cursor-pointer"
                                 defaultValue=""
                             >
                                 <option value="" disabled>Service Of Interest</option>
@@ -58,13 +58,13 @@ const ContactSection = () => {
                         <input
                             type="text"
                             placeholder="Timeline"
-                            className="w-full bg-[#1A1A1A] border-white/5 rounded-lg p-5 text-white placeholder:text-white/20 focus:outline-none focus:ring-1 focus:ring-cyan-primary/30 transition-all font-pathway h-[64px]"
+                            className="w-full bg-[#1A1A1A] border-white/5 rounded-lg p-5 text-white placeholder:text-white focus:outline-none focus:ring-1 focus:ring-cyan-primary/30 transition-all font-pathway h-[64px]"
                         />
                         {/* Project Details */}
                         <textarea
                             placeholder="Project Details..."
                             rows={8}
-                            className="w-full bg-[#1A1A1A] h-[162px] border-white/5 rounded-lg p-5 text-white placeholder:text-white/20 focus:outline-none focus:ring-1 focus:ring-cyan-primary/30 transition-all font-pathway resize-none"
+                            className="w-full bg-[#1A1A1A] h-[162px] border-white/5 rounded-lg p-5 text-white placeholder:text-white focus:outline-none focus:ring-1 focus:ring-cyan-primary/30 transition-all font-pathway resize-none"
                         ></textarea>
                     </div>
 
