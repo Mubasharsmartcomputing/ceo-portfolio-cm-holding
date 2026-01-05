@@ -1,4 +1,3 @@
-import topPattern from '../assets/images/aboutBanner.png';
 import { PORTFOLIO_DATA } from '../constants/portfolioData';
 
 const PortfolioList = () => {

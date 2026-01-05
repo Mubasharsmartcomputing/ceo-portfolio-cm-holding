@@ -1,5 +1,3 @@
-import { HiOutlineDownload } from 'react-icons/hi';
-
 const ServiceBanner = () => {
     return (
         <div className="min-h-[400px] relative flex items-center justify-start bg-gradient-to-r  from-[#0e2a32]

@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { HiMenu, HiX } from 'react-icons/hi';
 import { NAVIGATION_ITEMS } from '../constants';
 
 const Header = () => {
