@@ -1,6 +1,6 @@
 import CompaniesSection from "../components/CompaniesSection";
 import ContactSection from "../components/ContactSection";
-import ServiceBanner from "../components/serviceBanner";
+import ServiceBanner from "../components/serviceBanner.tsx";
 import ServicesComponent from '../components/ServicesComponent';
 
 const Services = () => {
