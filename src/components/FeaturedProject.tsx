@@ -1,57 +1,42 @@
 import { LuCalendar, LuMonitor, LuPenTool, LuTrendingUp } from 'react-icons/lu';
+import { FEATURED_PROJECT_CARDS } from '../constants/featuredProjectData';
 
 const FeaturedProject = () => {
-    const cardFeatures = [
-        {
-            icon: <LuCalendar className="text-cyan-primary text-xl" />,
-            title: "International Design",
-            text: "Crafted by a globally renowned architectural firm for a world class commercial experience."
-        },
-        {
-            icon: <LuMonitor className="text-cyan-primary text-xl" />,
-            title: "Prime Location",
-            text: "Strategically positioned on Main GT Road for maximum visibility and commercial value."
-        },
-        {
-            icon: <LuPenTool className="text-cyan-primary text-xl" />,
-            title: "Engineering Excellence",
-            text: "Developed with CM Holdings' expert planning and engineering teams for superior build quality."
-        },
-        {
-            icon: <LuTrendingUp className="text-cyan-primary text-xl" />,
-            title: "Investment Growth",
-            text: "Designed to deliver long-term commercial returns and high-value business opportunities."
-        }
-    ];
+    const iconMap = {
+        LuCalendar: <LuCalendar className="text-cyan-primary text-xl" />,
+        LuMonitor: <LuMonitor className="text-cyan-primary text-xl" />,
+        LuPenTool: <LuPenTool className="text-cyan-primary text-xl" />,
+        LuTrendingUp: <LuTrendingUp className="text-cyan-primary text-xl" />,
+    };
 
     return (
         <section className="bg-[#0A0A0A] py-24 overflow-hidden">
-            <div className="max-w-[1241px] mx-auto px-6 lg:px-0 flex flex-col lg:flex-row items-center gap-16 lg:gap-24">
+            <div className="max-w-[1360px] mx-auto px-6 lg:px-8 flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
                 {/* Left side: Heading and Description */}
-                <div className="w-full lg:w-[570px]">
+                <div className="w-full lg:w-[60%]">
                     <h2 className="font-pathway leading-[1.2] md:leading-[1.4] mb-8">
-                        <span className="block text-[44px] font-semibold uppercase bg-gradient-to-r from-[#00EAFF5E] from-[37%] to-[#FFFFFF] bg-clip-text text-transparent">
+                        <span className="block text-[36px] md:text-[44px] font-semibold uppercase bg-gradient-to-r from-[#00EAFF5E] from-[37%] to-[#FFFFFF] bg-clip-text text-transparent">
                             Featured Mega Project
                         </span>
-                        <span className="block text-[44px] font-semibold text-white uppercase mt-4">
+                        <span className="block text-[36px] md:text-[44px] font-semibold text-white uppercase mt-4">
                             The CM Centre (100 Kanals)
                         </span>
                     </h2>
-                    <p className="font-pathway text-[20px] font-normal text-[#EBEBEB] leading-relaxed w-full lg:w-[564px]">
+                    <p className="font-pathway w-full lg:w-[70%] text-[18px] md:text-[20px] font-normal text-[#EBEBEB] leading-relaxed">
                         A landmark commercial hub being developed on Main GT Road, Gujranwala designed by an international architectural firm in collaboration with CM Holding's engineering & planning team.
                     </p>
                 </div>
 
                 {/* Right side: Cards Grid */}
-                <div className="w-full lg:w-1/2 grid grid-cols-1 sm:grid-cols-2 gap-6 items-start">
-                    {cardFeatures.map((feature, index) => (
+                <div className="w-full lg:w-[45%] grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 items-start">
+                    {FEATURED_PROJECT_CARDS.map((feature, index) => (
                         <div
                             key={index}
-                            className={`bg-white rounded-[15px] p-6 flex flex-col items-start gap-4 transition-transform hover:-translate-y-1 duration-300 ${index % 2 !== 0 ? 'lg:mt-12' : ''
+                            className={`bg-white rounded-[15px] p-6 flex flex-col items-start gap-4 transition-transform hover:-translate-y-1 duration-300 ${index % 2 !== 0 ? 'lg:mt-4' : ''
                                 }`}
                         >
                             <div className="w-12 h-12 rounded-lg border border-cyan-primary/20 flex items-center justify-center bg-cyan-primary/5">
-                                {feature.icon}
+                                {iconMap[feature.iconName]}
                             </div>
                             <div>
                                 <h3 className="font-pathway text-[18px] font-bold text-black mb-2">

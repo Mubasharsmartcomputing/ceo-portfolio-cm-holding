@@ -15,8 +15,8 @@ const Home = () => {
       <BusinessEcosystem />
       <CompaniesSection />
       <FeaturedProject />
-      <DigitalInnovation />
       <WhyChooseSection />
+      <DigitalInnovation />
       <ContactSection />
     </div>
   );

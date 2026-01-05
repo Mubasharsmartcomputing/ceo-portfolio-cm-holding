@@ -22,6 +22,8 @@ const ServiceBanner = () => {
                     CM Holdings delivers integrated, multi-sector solutions across real estate, aviation, manufacturing, trade and development. </p>
 
             </div>
+             {/* Bottom White Parting Line */}
+            <div className="absolute bottom-0 left-0 right-0 h-[6px] bg-white"></div>
         </div>
     );
 };

@@ -5,9 +5,7 @@ import { NAVIGATION_ITEMS } from '../constants';
 const Footer = () => {
   return (
     <footer className="bg-[#101010] text-white relative">
-      {/* Top Glow Effect */}
-      <div className="w-full h-[0.5px] bg-[#00EAFF] shadow-[0_-4px_20px_rgba(0,234,255,0.99),0_-8px_32px_rgba(0,234,255,0.60),0_-20px_20px_rgba(0,234,255,0.66)]" />
-
+      
       <div className="max-w-[1241px] mx-auto px-6 lg:px-0 py-24">
         {/* Top Row: Navigation */}
         <div className="flex flex-col md:flex-row justify-between items-center mb-8">

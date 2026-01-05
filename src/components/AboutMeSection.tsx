@@ -1,5 +1,5 @@
 import aboutBg from '../assets/images/aboutSection.png';
-import ceoImg from '../assets/images/ceo.png';
+import ceoImage from '../assets/images/ceo.png';
 
 const AboutMeSection = () => {
     return (
@@ -16,14 +16,16 @@ const AboutMeSection = () => {
                 {/* Left side: CEO Image Container */}
                 <div className="w-full lg:w-[45%] flex flex-col items-center lg:items-start">
                     <div className="relative w-full max-w-[430px]">
-                        {/* Arch Shaped Container for Image */}
-                        <div>
+                         {/* Left Side: CEO Image with Arch Mask */}
+                    <div className="relative flex-shrink-0">
+                        <div className="w-[300px] md:w-[430px] aspect-[1/1.2] rounded-t-[200px] border-b-[2px] border-cyan-primary overflow-hidden bg-black/40 relative">
                             <img
-                                src={ceoImg}
-                                alt="CEO CM Holdings"
-                                className="w-full  grayscale"
+                                src={ceoImage}
+                                alt="Omer Farooq"
+                                className="w-full h-full object-cover object-top grayscale opacity-90 scale-110"
                             />
                         </div>
+                    </div>
                         {/* Name Tag below the cyan line */}
                         <div className="mt-6">
                             <p className="font-pathway text-[20px] md:text-[24px] font-medium text-cyan-primary uppercase tracking-[0.15em] mb-1">
@@ -36,7 +38,7 @@ const AboutMeSection = () => {
                 {/* Right side: Content */}
                 <div className="w-full lg:w-[718px]">
                     <h3 className="font-pathway text-cyan-primary text-[24px] font-semibold leading-normal mb-8 uppercase flex items-center gap-4">
-                        <span className="w-8 h-px bg-cyan-primary block"></span>
+                        
                         About Me
                     </h3>
                     <div className="font-pathway text-[#E0E0E0] text-[18px] md:text-[20px] leading-[158%] font-normal space-y-8 tracking-[-0.01em]">

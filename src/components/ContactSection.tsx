@@ -1,19 +1,42 @@
 
-const ContactSection = () => {
+interface ContactSectionProps {
+    title?: React.ReactNode;
+    subtitle?: React.ReactNode;
+    description?: string;
+    alignment?: 'center' | 'left';
+    showHeading?: boolean;
+}
+
+const ContactSection: React.FC<ContactSectionProps> = ({
+    title,
+    subtitle,
+    description,
+    alignment = 'center',
+    showHeading = true
+}) => {
     return (
-        <div className="w-full bg-[#101010] py-24 px-6 md:px-12">
-            <div className="max-w-[1440px] mx-auto flex flex-col items-center">
+        <div className="w-full bg-[#101010] py-12 sm:py-16 md:py-24 px-4 sm:px-6 md:px-12 relative overflow-hidden">
+            <div className={`max-w-[1440px] mx-auto flex flex-col ${alignment === 'left' ? 'items-start' : 'items-center'}`}>
                 {/* Heading Area */}
-                <div className="w-full text-center mb-16">
-                    <h1 className="font-pathway font-semibold text-[32px] md:text-[44px] leading-[134%] tracking-[-0.05em] uppercase mb-4">
-                        <span className="bg-gradient-to-r from-[#00EAFF5E] from-[3%] to-[#FFFFFF] bg-clip-text text-transparent">
-                            START YOUR INVESTMENT JOURNEY TODAY
-                        </span>
-                    </h1>
-                    <p className="font-pathway text-[16px] md:text-[18px] text-white/50 font-light">
-                        Talk to our advisors for property, SME, aviation, or investment opportunities.
-                    </p>
-                </div>
+                {showHeading && (
+                    <div className={`w-full ${alignment === 'left' ? 'text-left' : 'text-center'} mb-8 sm:mb-12 md:mb-16`}>
+                        <h1 className="font-pathway font-semibold leading-[134%] tracking-[-0.05em] uppercase mb-4">
+                            {title || (
+                                <span className="text-[24px] sm:text-[32px] md:text-[44px] bg-gradient-to-r from-[#00EAFF5E] from-[3%] to-[#FFFFFF] bg-clip-text text-transparent">
+                                    START YOUR INVESTMENT JOURNEY TODAY
+                                </span>
+                            )}
+                        </h1>
+                        {subtitle && (
+                            <div className="mb-4 uppercase">
+                                {subtitle}
+                            </div>
+                        )}
+                        <p className={`font-pathway text-[16px] md:text-[18px] text-white/50 font-light max-w-[800px] ${alignment === 'center' ? 'mx-auto' : ''}`}>
+                            {description || "Talk to our advisors for property, SME, aviation, or investment opportunities."}
+                        </p>
+                    </div>
+                )}
 
                 {/* Form Area */}
                 <form className="w-full max-w-[1214px] flex flex-col gap-[30px]">
@@ -78,7 +101,16 @@ const ContactSection = () => {
                         </button>
                     </div>
                 </form>
+
+                {/* Bottom Gradient Highlight */}
+                <div
+                    className="absolute bottom-0 left-0 right-0 h-[70px] pointer-events-none z-0"
+                    style={{
+                        background: 'linear-gradient(to top, #00EAFF5E 0%, #99999900 37%)'
+                    }}
+                />
             </div>
+
         </div>
     );
 };

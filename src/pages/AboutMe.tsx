@@ -1,11 +1,16 @@
+import AboutBanner from '../components/aboutBanner';
+import BottomDecoration from '../components/BottomDecoration';
+import ContactSection from '../components/ContactSection';
+import DigitalInnovation from '../components/DigitalInnovation';
+
 const AboutMe = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-900 to-pink-900 flex items-center justify-center pt-20">
-      <div className="text-center text-white">
-        <h1 className="text-5xl font-bold mb-4">About Me</h1>
-        <p className="text-xl text-gray-300">This is the about me page content</p>
-      </div>
-    </div>
+    <main className="bg-[#0A0A0A] min-h-screen">
+      <AboutBanner />
+      <BottomDecoration />
+      <DigitalInnovation showTitle={false} />
+      <ContactSection />
+    </main>
   );
 };
 

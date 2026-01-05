@@ -1,4 +1,3 @@
-import { HiOutlineDownload } from 'react-icons/hi';
 
 export const PortfolioBanner = () => {
     return (
@@ -7,7 +6,7 @@ export const PortfolioBanner = () => {
   to-[#101010] overflow-hidden">
 
             <div className="pt-40 relative z-10 w-full max-w-[1241px] mx-auto px-6 lg:px-0">
-               
+
 
                 {/* Omer Farooq */}
                 <h1 className="font-pathway font-medium text-[40px] md:text-[56.56px] md:font-medium uppercase mb-4 leading-tight">
@@ -16,14 +15,16 @@ export const PortfolioBanner = () => {
                     </span>
                 </h1>
 
-            
+
                 {/* CM Holdings is... */}
                 <p className="font-pathway text-[20px] font-light text-white leading-[32px] tracking-[0.03em] max-w-full lg:max-w-[1000px] mb-12">
-                    
+
                     I lead CM Holdings with a focus on innovation, growth, and strategic expansion across multiple sectors. My mission is to build impactful businesses, empower teams, and drive sustainable success.
-                    </p>
+                </p>
             </div>
 
+            {/* Bottom White Parting Line */}
+            <div className="absolute bottom-0 left-0 right-0 h-[6px] bg-white"></div>
         </div>
     );
 };
