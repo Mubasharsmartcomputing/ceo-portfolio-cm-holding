@@ -21,12 +21,12 @@ const HomeBanner = () => {
 
                 {/* Empowering... */}
                 <h2 className="font-pathway font-light text-[24px] md:text-[32px] text-white mb-6 leading-tight max-w-full md:max-w-[883px]">
-                    Empowering Pakistan’s Future Through Innovation, Investment & Global Standard Development
+                    Empowering Pakistan's Future Through Innovation, Investment & Global Standard Development
                 </h2>
 
                 {/* CM Holdings is... */}
                 <p className="font-pathway text-[14px] md:text-[16px] font-normal md:font-light text-white leading-relaxed max-w-full md:max-w-[700px] mb-12">
-                    CM Holdings is a diversified business ecosystem leading Pakistan’s transformation across real estate, aviation, SMEs, international education, hospitality, healthcare, and lifestyle development.
+                    CM Holdings Is A Diversified Business Ecosystem Leading Pakistan's Transformation Across Real Estate, Aviation, SMEs, International Education, Hospitality, Healthcare, And Lifestyle Development.
                 </p>
 
                 {/* Buttons */}

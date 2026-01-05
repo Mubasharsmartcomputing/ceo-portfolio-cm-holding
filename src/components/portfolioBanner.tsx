@@ -19,7 +19,7 @@ export const PortfolioBanner = () => {
                 {/* CM Holdings is... */}
                 <p className="font-pathway text-[20px] font-light text-white leading-[32px] tracking-[0.03em] max-w-full lg:max-w-[1000px] mb-12">
 
-                    I lead CM Holdings with a focus on innovation, growth, and strategic expansion across multiple sectors. My mission is to build impactful businesses, empower teams, and drive sustainable success.
+                    I Lead CM Holdings With A Focus On Innovation, Growth, And Strategic Expansion Across Multiple Sectors. My Mission Is To Build Impactful Businesses, Empower Teams, And Drive Sustainable Success.
                 </p>
             </div>
 

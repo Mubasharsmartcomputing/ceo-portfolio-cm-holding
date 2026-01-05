@@ -17,7 +17,7 @@ const ServiceBanner = () => {
             
                 {/* CM Holdings is... */}
                 <p className="font-pathway text-[20px] font-light text-white leading-[32px] tracking-[0.03em] max-w-full lg:max-w-[813px] mb-12">
-                    CM Holdings delivers integrated, multi-sector solutions across real estate, aviation, manufacturing, trade and development. </p>
+                    CM Holdings Delivers Integrated, Multi-Sector Solutions Across Real Estate, Aviation, Manufacturing, Trade And Development. </p>
 
             </div>
              {/* Bottom White Parting Line */}

@@ -47,12 +47,12 @@ const AboutBanner = () => {
 
                         {/* Subheading */}
                         <h2 className="font-pathway font-light text-[24px] md:text-[28px] text-white mb-6 leading-[38px] tracking-[0.03em] max-w-[800px]">
-                            Empowering Pakistan’s Future Through Innovation, Investment & Global Standard Development
+                            Empowering Pakistan's Future Through Innovation, Investment & Global Standard Development
                         </h2>
 
                         {/* Main Description */}
                         <p className="font-pathway text-[16px] font-light text-white leading-[1.6] max-w-full lg:w-[745px] mb-12 tracking-[0.05em]">
-                            CM Holdings is a diversified business ecosystem leading Pakistan’s transformation across real estate, aviation, SMEs, international education, hospitality, healthcare, and lifestyle development.
+                            CM Holdings Is A Diversified Business Ecosystem Leading Pakistan's Transformation Across Real Estate, Aviation, SMEs, International Education, Hospitality, Healthcare, And Lifestyle Development.
                         </p>
 
                         {/* Buttons */}

@@ -17,19 +17,21 @@ const BusinessEcosystem = () => {
         <section className="bg-white py-24 relative overflow-hidden">
             <div className="max-w-[1241px] mx-auto px-6 lg:px-0">
                 {/* Heading */}
-                <h2 className="font-pathway text-[36px] font-semibold uppercase mb-12 bg-gradient-to-r from-[#00EAFF] from-[37%] to-[#595858] bg-clip-text text-transparent w-fit">
+                <h2 className="font-pathway text-[36px] font-semibold uppercase mb-6 bg-gradient-to-r from-[#00EAFF] from-[37%] to-[#595858] bg-clip-text text-transparent w-fit">
                     Our Business Ecosystem
                 </h2>
 
                 {/* Ecosystem List */}
-                <div className="relative pl-8 border-l-[1.5px] border-cyan-primary">
-                    <ul className="space-y-4">
+                <div className="relative pl-8 border-l-[1px] border-[#00EAFF]" style={{
+                    background: 'linear-gradient(to right, #d7eaf05e 37%, #FFFFFF00)'
+                }}>
+                    <ul className="space-y-2 py-6">
                         {ecosystemItems.map((item, index) => (
                             <li
                                 key={index}
                                 className="font-pathway text-[16px] font-normal text-[#1A1A1A] leading-[26px] tracking-[0.05em] flex items-start gap-3"
                             >
-                                <span className="mt-[11px] w-[5px] h-[5px] rounded-full bg-[#1A1A1A] flex-shrink-0"></span>
+                                <span className="mt-[11px] w-[5px] h-[5px] rounded-full  bg-[#1A1A1A] flex-shrink-0"></span>
                                 {item}
                             </li>
                         ))}

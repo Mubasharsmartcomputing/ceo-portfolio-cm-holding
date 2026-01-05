@@ -3,26 +3,26 @@ import ceoImage from '../assets/images/ceo.png';
 
 const AboutMeSection = () => {
     return (
-        <section className="relative min-h-[800px] flex items-center py-24 overflow-hidden">
+        <section className="relative min-h-[800px] flex items-center py-16 md:py-24 overflow-hidden">
             {/* Background Image with Overlay */}
             <div
                 className="absolute inset-0 z-0 bg-cover bg-fixed bg-center bg-no-repeat"
                 style={{ backgroundImage: `url(${aboutBg})` }}
             >
-                <div className="absolute inset-0 bg-[#000000]/80 backdrop-blur-[2px]"></div>
+                <div className="absolute inset-0 bg-[#000000]/70 backdrop-blur-[1px]"></div>
             </div>
 
-            <div className="relative z-10 w-full max-w-[1241px] mx-auto px-6 lg:px-0 flex flex-col lg:flex-row items-center gap-16 lg:gap-32">
+            <div className="relative z-10 w-full max-w-[1241px] mx-auto px-6 lg:px-0 flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
                 {/* Left side: CEO Image Container */}
                 <div className="w-full lg:w-[45%] flex flex-col items-center lg:items-start">
                     <div className="relative w-full max-w-[430px]">
                          {/* Left Side: CEO Image with Arch Mask */}
                     <div className="relative flex-shrink-0">
-                        <div className="w-[300px] md:w-[430px] aspect-[1/1.2] rounded-t-[200px] border-b-[2px] border-cyan-primary overflow-hidden bg-black/40 relative">
+                        <div className="w-[300px] md:w-[430px] aspect-[1/1.2] rounded-t-[200px] border-b-[2px] border-cyan-primary overflow-hidden bg-gray-600/10 relative">
                             <img
                                 src={ceoImage}
                                 alt="Omer Farooq"
-                                className="w-full h-full object-cover object-top grayscale opacity-90 scale-110"
+                                className="w-full h-full object-cover object-top grayscale opacity-100 scale-110"
                             />
                         </div>
                     </div>
@@ -37,18 +37,17 @@ const AboutMeSection = () => {
 
                 {/* Right side: Content */}
                 <div className="w-full lg:w-[718px]">
-                    <h3 className="font-pathway text-cyan-primary text-[24px] font-semibold leading-normal mb-8 uppercase flex items-center gap-4">
-                        
+                    <h3 className="font-pathway text-cyan-primary text-[24px] font-semibold leading-normal mb-6 uppercase flex items-center gap-4">
                         About Me
                     </h3>
-                    <div className="font-pathway text-[#E0E0E0] text-[18px] md:text-[20px] leading-[158%] font-normal space-y-8 tracking-[-0.01em]">
+                    <div className="font-pathway text-[#E0E0E0] text-[16px] md:text-[20px] leading-[160%] font-normal space-y-6 tracking-[-0.01em]">
                         <p>
                             CM Holdings of Companies is a progressive, diversified conglomerate founded by Mr. Muhammad Farooq and led by CEO Mr. Omer Farooq. Built on innovation, quality, and integrity, the Group has expanded into a multi-sector enterprise recognized for excellence across business management, construction, interior and exterior design, marketing, education, consultancy, trading, import/export, and hospitality.
+                      
                         
-                       
                             Home to renowned brands such as Empire Lifestyle, Farooq Woolen Mills, Winvest, Empire Bridge Aviation, Capital RMC, Used Global Machinery, C.M.O.F., and Wonder Hills, CM Holdings continues to set industry benchmarks through professionalism and a commitment to customer satisfaction.
                         
-                        
+                       
                             With a strong foundation and forward thinking leadership, the Group aims to create opportunities, empower individuals, and drive sustainable economic growth moving confidently toward a future defined by innovation, excellence, and global expansion.
                         </p>
                     </div>
