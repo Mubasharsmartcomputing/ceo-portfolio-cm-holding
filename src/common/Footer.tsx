@@ -15,7 +15,7 @@ const Footer = () => {
                 <li key={item.label}>
                   <Link
                     to={item.path}
-                    className="text-[#D1D1D1] hover:text-cyan-primary transition-colors text-[18px] font-normal font-pathway"
+                    className="text-[#D1D1D1] relative hover:text-cyan-primary transition-colors text-[18px] font-normal font-pathway"
                   >
                     {item.label}
                   </Link>
@@ -53,6 +53,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
+       {/* Bottom White Parting Line */}
+            <div className="absolute bottom-6 left-0 right-0 h-[0.5px] opacity-2 bg-[#00EAFF]"></div>
     </footer>
   );
 };

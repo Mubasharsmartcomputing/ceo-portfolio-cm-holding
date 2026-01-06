@@ -29,7 +29,7 @@ const StrategicBusinessProjects = () => {
             {STRATEGIC_PROJECTS_DATA.map((card, index) => (
                 <div
                     key={index}
-                    className={`relative w-full py-20 md:py-20 ${card.bgColor} overflow-hidden`}
+                    className={`relative w-full py-20 md:py-20 ${card.bgColor} overflow-hidden border-b-[1px] border-[#00EAFF] border-opacity-20`}
                 >
                     <div className="container mx-auto max-w-[1241px] px-6 lg:px-0 relative z-10">
                         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-24">
