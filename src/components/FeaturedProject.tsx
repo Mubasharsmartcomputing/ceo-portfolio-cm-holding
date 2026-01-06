@@ -15,10 +15,10 @@ const FeaturedProject = () => {
                 {/* Left side: Heading and Description */}
                 <div className="w-full lg:w-[60%]">
                     <h2 className="font-pathway leading-[1.2] md:leading-[1.4] mb-8">
-                        <span className="block text-[36px] md:text-[44px] font-semibold uppercase bg-gradient-to-r from-[#00EAFF5E] from-[37%] to-[#FFFFFF] bg-clip-text text-transparent">
+                        <span className="block text-[28px] md:text-[44px] font-semibold uppercase bg-gradient-to-r from-[#00EAFF5E] from-[37%] to-[#FFFFFF] bg-clip-text text-transparent">
                             Featured Mega Project
                         </span>
-                        <span className="block text-[36px] md:text-[44px] font-semibold text-white uppercase mt-4">
+                        <span className="block text-[28px] md:text-[44px] font-semibold text-white uppercase mt-4">
                             The CM Centre (100 Kanals)
                         </span>
                     </h2>

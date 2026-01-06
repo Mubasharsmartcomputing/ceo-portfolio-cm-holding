@@ -5,7 +5,7 @@ interface DigitalInnovationProps {
 
 const DigitalInnovation: React.FC<DigitalInnovationProps> = ({ showTitle = true, isDark = false }) => {
     return (
-        <section className={`py-24 relative overflow-hidden ${isDark ? 'bg-[#0A0A0A]' : 'bg-white'}`}>
+        <section className={`py:10 md:py-24 relative overflow-hidden ${isDark ? 'bg-[#0A0A0A]' : 'bg-white'}`}>
             <div className="max-w-[1241px] mx-auto px-6 lg:px-0">
                 {/* Section Header */}
                 {showTitle && (

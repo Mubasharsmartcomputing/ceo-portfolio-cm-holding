@@ -17,7 +17,7 @@ const BusinessEcosystem = () => {
         <section className="bg-white py-24 relative overflow-hidden">
             <div className="max-w-[1241px] mx-auto px-6 lg:px-0">
                 {/* Heading */}
-                <h2 className="font-pathway text-[36px] font-semibold uppercase mb-6 bg-gradient-to-r from-[#00EAFF] from-[37%] to-[#595858] bg-clip-text text-transparent w-fit">
+                <h2 className="font-pathway text-[28px] font-semibold uppercase mb-6 bg-gradient-to-r from-[#00EAFF] from-[37%] to-[#595858] bg-clip-text text-transparent w-fit">
                     Our Business Ecosystem
                 </h2>
 

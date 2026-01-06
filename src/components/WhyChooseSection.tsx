@@ -28,10 +28,10 @@ const WhyChooseSection = () => {
     ];
 
     return (
-        <section className="py-24 px-6 bg-gradient-to-br from-[#00EAFF5E] from-[37%] to-[#FFFFFF]">
-            <div className="max-w-[1214px] mx-auto bg-[#101010E0] rounded-[32px] p-12 md:p-20 shadow-2xl overflow-hidden backdrop-blur-md">
+        <section className="py-24 px-2 bg-gradient-to-br from-[#00EAFF5E] from-[37%] to-[#FFFFFF]">
+            <div className="max-w-[1214px] mx-auto bg-[#101010E0] rounded-[32px] p-8 md:p-12 md:p-20 shadow-2xl overflow-hidden backdrop-blur-md">
                 <div className="mb-16">
-                    <h2 className="font-pathway text-[36px] md:text-[47.01px] font-normal uppercase leading-tight tracking-[-0.05em] mb-4">
+                    <h2 className="font-pathway text-[28px] md:text-[47.01px] font-normal uppercase leading-tight tracking-[-0.05em] mb-4">
                         <span className="bg-gradient-to-r from-[#00EAFF5E] from-[37%] to-[#FFFFFF] bg-clip-text text-transparent">
                             Why Choose
                         </span>{" "}
@@ -46,7 +46,7 @@ const WhyChooseSection = () => {
                     {features.map((feature, index) => (
                         <div
                             key={index}
-                            className="relative w-full lg:w-[247.96px] bg-[#FFFFFF1A] border border-white/10 rounded-[18px] p-8 pt-10 flex flex-col items-start gap-4 transition-all hover:border-cyan-primary/30 group mt-4"
+                            className="relative w-full lg:w-[247.96px] bg-[#FFFFFF1A] border border-white/10 rounded-[18px] p-4 md:p-6 pt-10 flex flex-col items-start gap-4 transition-all hover:border-cyan-primary/30 group mt-4"
                         >
                             {/* Icon Wrapper - Positioned to overlap top-left */}
                             <div className="absolute -top-6 left-6 w-12 h-12 rounded-[15px] bg-cyan-primary flex items-center justify-center z-10">
