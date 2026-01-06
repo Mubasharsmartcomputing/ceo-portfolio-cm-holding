@@ -10,7 +10,7 @@ const FeaturedProject = () => {
     };
 
     return (
-        <section className="bg-[#0A0A0A] py-24 overflow-hidden">
+        <section className="bg-[#0A0A0A] py-6 md:py-20 overflow-hidden">
             <div className="max-w-[1360px] mx-auto px-6 lg:px-8 flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
                 {/* Left side: Heading and Description */}
                 <div className="w-full lg:w-[60%]">

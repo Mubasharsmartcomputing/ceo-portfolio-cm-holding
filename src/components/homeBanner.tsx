@@ -6,7 +6,7 @@ const HomeBanner = () => {
   via-[#101010] via-[60%]
   to-[#101010] overflow-hidden">
 
-            <div className="  relative z-10 w-full max-w-[1241px] mx-auto px-6 lg:px-0">
+            <div className="  relative z-10 w-full max-w-[1241px] mx-auto py-20 md:py-auto px-6 lg:px-0">
                 {/* Hi I am */}
                 <p className="font-poppins text-[24px] md:text-[30px] font-normal md:font-light text-white mb-2">
                     Hi I am
