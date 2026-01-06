@@ -22,7 +22,7 @@ const ContactSection: React.FC<ContactSectionProps> = ({
                     <div className={`w-full ${alignment === 'left' ? 'text-left' : 'text-center'} mb-8 sm:mb-12 md:mb-16`}>
                         <h1 className="font-pathway font-semibold leading-[134%] tracking-[-0.05em] uppercase mb-4">
                             {title || (
-                                <span className="text-[24px] sm:text-[32px] md:text-[44px] bg-gradient-to-r from-[#00EAFF5E] from-[3%] to-[#FFFFFF] bg-clip-text text-transparent">
+                                <span className="text-[28px] sm:text-[32px] md:text-[44px] bg-gradient-to-r from-[#00EAFF5E] leading-10 md:leading-16 from-[3%] to-[#FFFFFF] bg-clip-text text-transparent">
                                     START YOUR INVESTMENT JOURNEY TODAY
                                 </span>
                             )}
