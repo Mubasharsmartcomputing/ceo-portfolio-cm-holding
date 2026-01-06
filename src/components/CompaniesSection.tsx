@@ -3,7 +3,7 @@ import companyLogs from '../assets/images/companyLogs.png';
 const CompaniesSection = () => {
     return (
         <section className="bg-[#0A0A0A] py-4 md:py-12 overflow-hidden">
-            <div className="max-w-[1400px] mx-auto px-6 lg:px-0">
+            <div className="max-w-[1200px] mx-auto px-6 lg:px-0">
                 {/* Title */}
                 <h2 className="font-pathway text-[24px] md:text-[36px] font-normal text-white mb-8 md:mb-12">
                     Companies

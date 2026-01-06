@@ -12,7 +12,7 @@ const StrategicBusinessProjects = () => {
 
       {/* HEADING */}
       <h2 className="font-pathway font-semibold text-[20px] sm:text-[24px] md:text-[31.09px] uppercase flex flex-wrap items-center gap-2 sm:gap-4">
-        <span className="text-[#595858]">≫≫≫</span>
+        <span className="text-[#595858]">≫≫</span>
         <span className="text-[#02C9DB]">STRATEGIC BUSINESS</span>
         <span className="text-[#595858]">PROJECTS</span>
       </h2>
