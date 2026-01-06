@@ -10,7 +10,7 @@ const AboutBanner = () => {
                 className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
                 style={{ backgroundImage: `url(${bgImage})` }}
             >
-                <div className="absolute inset-0 bg-black/85"></div>
+                <div className="absolute inset-0 bg-black/60"></div>
             </div>
 
             <div className="container mx-auto max-w-[1241px] px-6 lg:px-0 relative z-10">
@@ -18,11 +18,11 @@ const AboutBanner = () => {
 
                     {/* Left Side: CEO Image with Arch Mask */}
                     <div className="relative flex-shrink-0">
-                        <div className="w-[300px] md:w-[430px] aspect-[1/1.2] rounded-t-[200px] border-b-[2px] border-cyan-primary overflow-hidden bg-black/40 relative">
+                        <div className="w-[300px] md:w-[430px] aspect-[1/1.2] rounded-t-[200px] border-b-[4px] border-cyan-primary overflow-hidden bg-black/40 relative">
                             <img
                                 src={ceoImage}
                                 alt="Omer Farooq"
-                                className="w-full h-full object-cover object-top grayscale opacity-90 scale-110"
+                                className="w-full h-full object-cover object-top grayscale opacity-10 scale-110"
                             />
                         </div>
                     </div>

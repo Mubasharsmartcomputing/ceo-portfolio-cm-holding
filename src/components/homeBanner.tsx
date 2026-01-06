@@ -30,7 +30,7 @@ const HomeBanner = () => {
                 </p>
 
                 {/* Buttons */}
-                <div className="flex flex-wrap gap-12 font-montserrat">
+                <div className="flex flex-wrap gap-6 font-montserrat">
                     <button className="w-full md:w-[190px] h-[44px] flex items-center justify-center border-[2px] border-white/20 rounded-[12px] text-white font-medium hover:bg-white/10 transition-all cursor-pointer whitespace-nowrap gap-[10px]">
                         Explore Projects
                     </button>

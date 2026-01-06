@@ -18,7 +18,7 @@ const AboutMeSection = () => {
                     <div className="relative w-full max-w-[430px]">
                          {/* Left Side: CEO Image with Arch Mask */}
                     <div className="relative flex-shrink-0">
-                        <div className="w-[300px] md:w-[430px] aspect-[1/1.2] rounded-t-[200px] border-b-[2px] border-cyan-primary overflow-hidden bg-gray-600/10 relative">
+                        <div className="w-[300px] md:w-[430px] aspect-auto rounded-t-[200px] border-b-[3px] border-cyan-primary overflow-hidden bg-gray-600/10 relative">
                             <img
                                 src={ceoImage}
                                 alt="Omer Farooq"
