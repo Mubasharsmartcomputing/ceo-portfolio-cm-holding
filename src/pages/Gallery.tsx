@@ -1,4 +1,3 @@
-import React from 'react';
 import { GALLERY_DATA } from '../constants/galleryData';
 // import { PortfolioBanner } from '../components/portfolioBanner'; 
 
