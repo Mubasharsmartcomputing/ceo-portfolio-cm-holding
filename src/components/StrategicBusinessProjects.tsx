@@ -36,8 +36,10 @@ const StrategicBusinessProjects = () => {
 
                             {/* Content Side */}
                             <div className="flex-1">
-                                <h2 className="font-pathway font-semibold text-[31.09px] flex items-center gap-4 mb-1">
-                                    <div className="w-[80px] h-[80px] flex-shrink-0 flex items-center justify-center">
+                                <h2 className="font-pathway font-semibold text-[24px] md:text-[31.09px] flex items-center gap-4 mb-1">
+                                    <div className={`${(card.title === "TIM HORTONS CAFE" || card.title === "HARDEE'S") ? 'w-[60px] h-[60px]' :
+                                            'w-[80px] h-[80px]'
+                                        } flex-shrink-0 flex items-center justify-center`}>
                                         <img
                                             src={card.icon}
                                             alt={`${card.title} icon`}
