@@ -2,7 +2,7 @@ import { HiOutlineDownload } from 'react-icons/hi';
 
 const HomeBanner = () => {
     return (
-        <div className="min-h-[603px] relative flex items-center justify-start bg-gradient-to-r   from-[#0e2a32]
+        <div className="min-h-[500px] relative flex items-center justify-start bg-gradient-to-r   from-[#0e2a32]
   via-[#101010] via-[60%]
   to-[#101010] overflow-hidden">
 
@@ -24,16 +24,13 @@ const HomeBanner = () => {
                     Empowering Pakistan's Future Through Innovation, Investment & Global Standard Development
                 </h2>
 
-                {/* CM Holdings is... */}
-                <p className="font-pathway text-[14px] md:text-[16px] font-normal md:font-light text-white leading-relaxed max-w-full md:max-w-[700px] mb-12">
-                    CM Holdings Is A Diversified Business Ecosystem Leading Pakistan's Transformation Across Real Estate, Aviation, SMEs, International Education, Hospitality, Healthcare, And Lifestyle Development.
-                </p>
+              
 
                 {/* Buttons */}
                 <div className="flex flex-wrap gap-6 font-montserrat">
-                    <button className="w-full md:w-[190px] h-[44px] flex items-center justify-center border-[2px] border-white/20 rounded-[12px] text-white font-medium hover:bg-white/10 transition-all cursor-pointer whitespace-nowrap gap-[10px]">
+                    {/* <button className="w-full md:w-[190px] h-[44px] flex items-center justify-center border-[2px] border-white/20 rounded-[12px] text-white font-medium hover:bg-white/10 transition-all cursor-pointer whitespace-nowrap gap-[10px]">
                         Explore Projects
-                    </button>
+                    </button> */}
                     <button className="w-full md:w-auto px-10 h-[44px] flex items-center justify-center border-[2px] border-cyan-primary rounded-[12px] text-cyan-primary font-medium hover:bg-cyan-primary/10 transition-all cursor-pointer whitespace-nowrap gap-[10px]">
                         <HiOutlineDownload className="text-xl" />
                         Download CV

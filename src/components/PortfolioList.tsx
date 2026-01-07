@@ -15,7 +15,13 @@ const PortfolioList = () => {
                             {/* Content Side */}
                             <div className="flex-1">
                                 <h2 className="font-pathway font-semibold text-[31.09px] flex items-center gap-4 mb-1">
-                                    <span className="text-white">{card.number}</span>
+                                    <div className="w-[50px] h-[50px] flex-shrink-0 flex items-center justify-center">
+                                        <img
+                                            src={card.icon}
+                                            alt={`${card.title} icon`}
+                                            className="w-full h-full object-contain"
+                                        />
+                                    </div>
                                     {card.hasGradient || card.number === "01" ? (
                                         <span className="bg-gradient-to-r from-[#00EAFF] to-[#FFFFFF] bg-clip-text text-transparent">
                                             {card.title}

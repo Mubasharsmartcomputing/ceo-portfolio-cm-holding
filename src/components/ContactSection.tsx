@@ -23,7 +23,7 @@ const ContactSection: React.FC<ContactSectionProps> = ({
                         <h1 className="font-pathway font-semibold leading-[134%] tracking-[-0.05em] uppercase mb-4">
                             {title || (
                                 <span className="text-[28px] sm:text-[32px] md:text-[44px] bg-gradient-to-r from-[#00EAFF5E] leading-10 md:leading-16 from-[3%] to-[#FFFFFF] bg-clip-text text-transparent">
-                                    START YOUR INVESTMENT JOURNEY TODAY
+                                    Take the Next Step Toward Smart Investments
                                 </span>
                             )}
                         </h1>

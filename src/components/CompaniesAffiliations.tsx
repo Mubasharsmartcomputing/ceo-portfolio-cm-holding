@@ -3,7 +3,7 @@ import { AFFILIATIONS_DATA } from '../constants/affiliationsData';
 const CompaniesAffiliations = () => {
 
     return (
-        <section className="w-full bg-white pb-24 overflow-hidden">
+        <section className="w-full relative bg-white py-20 overflow-hidden">
             <div className="container mx-auto max-w-[1241px] px-6 lg:px-0 text-center mb-16">
                 <h2 className="font-pathway font-semibold text-[32px] md:text-[48px] uppercase bg-gradient-to-r from-[#00EAFF] to-[#595858] bg-clip-text text-transparent">
                     COMPANIES AFFILIATIONS
@@ -45,6 +45,13 @@ const CompaniesAffiliations = () => {
                     </div>
                 </div>
             </div>
+            {/* Bottom Gradient Highlight */}
+                <div
+                    className="absolute bottom-0 left-0 right-0 h-[70px] pointer-events-none z-0"
+                    style={{
+                        background: 'linear-gradient(to top, #00EAFF5E 0%, #99999900 37%)'
+                    }}
+                />
         </section>
     );
 };

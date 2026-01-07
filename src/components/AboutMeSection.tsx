@@ -42,11 +42,8 @@ const AboutMeSection = () => {
                     </h3>
                     <div className="font-pathway text-[#E0E0E0] text-[16px] md:text-[20px] leading-[160%] font-normal tracking-[-0.01em]">
                         <p className="whitespace-pre-line">
-                            CM Holdings of Companies is a progressive, diversified conglomerate founded by Mr. Muhammad Farooq and led by CEO Mr. Omer Farooq. Built on innovation, quality, and integrity, the Group has expanded into a multi-sector enterprise recognized for excellence across business management, construction, interior and exterior design, marketing, education, consultancy, trading, import/export, and hospitality.
-
-                            Home to renowned brands such as Empire Lifestyle, Farooq Woolen Mills, Winvest, Empire Bridge Aviation, Capital RMC, Used Global Machinery, C.M.O.F., and Wonder Hills, CM Holdings continues to set industry benchmarks through professionalism and a commitment to customer satisfaction.
-
-                            With a strong foundation and forward thinking leadership, the Group aims to create opportunities, empower individuals, and drive sustainable economic growth moving confidently toward a future defined by innovation, excellence, and global expansion.
+                          A visionary business leader and entrepreneur, recognized for strategic insight and hands-on leadership across multiple industries. With a strong focus on innovation, quality, and integrity, extensive experience has been built in managing ventures spanning business management, construction, interior and exterior design, marketing, education, consultancy, trading, import/export, aviation, and hospitality.
+                          Under this leadership, several renowned brands including Empire Lifestyle, Farooq Woolen Mills, Winvest, Empire Bridge Aviation, Capital RMC, Used Global Machinery, C.M.O.F., and Wonder Hills have grown with a strong emphasis on professionalism, operational excellence, and customer satisfaction.Driven by a forward-thinking mindset, the focus remains on creating opportunities, empowering individuals, and driving sustainable economic growth building future-ready businesses that embrace innovation, excellence, and global expansion.
                         </p>
                     </div>
                 </div>

@@ -14,7 +14,7 @@ const DigitalInnovation: React.FC<DigitalInnovationProps> = ({ showTitle = true,
                             Digital Innovation
                         </h2>
                         <p className={`font-pathway text-[16px] leading-[26px] tracking-wide ${isDark ? 'text-white/80' : 'text-[#4A4A4A]'}`}>
-                            CM Holdings integrates advanced digital systems across its companies to ensure efficiency, transparency, and global-standard operations.
+                            Through strategic leadership and innovation, I drive digital transformation across all my ventures, delivering excellence, transparency, and world-class operational standards.
                         </p>
                     </div>
                 )}
