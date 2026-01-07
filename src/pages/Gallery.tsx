@@ -43,9 +43,7 @@ const GalleryPage = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent opacity-100 transition-opacity duration-300 flex flex-col justify-end p-8">
                 <div className="translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
                   <div className="flex items-center justify-between mb-2">
-                    <span className="text-[#00EAFF] text-sm font-semibold tracking-wider uppercase border border-[#00EAFF]/30 px-3 py-1 rounded-full bg-[#00EAFF]/10 backdrop-blur-sm">
-                      {item.author}
-                    </span>
+                   
                   </div>
 
                   <h3 className="text-2xl font-bold text-white mb-2 leading-tight">
